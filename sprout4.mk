@@ -23,3 +23,12 @@ $(call inherit-product, device/google/sprout-common/sprout.mk)
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/rootdir/root/init.sprout.rc:root/init.sprout.rc \
     $(LOCAL_PATH)/rootdir/root/fstab.sprout:root/fstab.sprout
+
+# Hardware info
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.device.chipset=Mediatek MT6582 \
+    ro.device.cpu=1.3GHz quad-core Cortex-A7 \
+    ro.device.gpu=Mali-400MP2 \
+    ro.device.rear_cam=5 MP 2952x1944 pixels \
+    ro.device.front_cam=2 MP \
+    ro.device.screen_res=480x854pixels (218 ppi)
