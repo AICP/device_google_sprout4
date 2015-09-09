@@ -1,9 +1,9 @@
 [
 
   {
-    "repository":     "AICP/device_google_sprout-common",
+    "repository":     "CyanogenMod/device_google_sprout-common",
     "target_path":  "device/google/sprout-common",
-    "branch":           "lp5.1"
+    "branch":           "cm-12.1"
   },
   {
     "repository":     "AICP/proprietary_vendor_google",
