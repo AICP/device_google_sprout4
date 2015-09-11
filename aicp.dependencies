@@ -1,7 +1,7 @@
 [
 
   {
-    "repository":     "CyanogenMod/device_google_sprout-common",
+    "repository":     "CyanogenMod/android_device_google_sprout-common",
     "target_path":  "device/google/sprout-common",
     "branch":           "cm-12.1"
   },
