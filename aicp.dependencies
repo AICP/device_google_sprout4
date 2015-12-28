@@ -13,10 +13,5 @@
     "repository":     "CyanogenMod/android_kernel_mediatek_sprout",
     "target_path": "kernel/mediatek/sprout",
     "branch":           "cm-13.0"
-  },
-  {
-    "repository":     "CyanogenMod/android_packages_apps_FMRadio",
-    "target_path": "packages/apps/FMRadio",
-    "branch":           "cm-13.0"
   }
 ]
